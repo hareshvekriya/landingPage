@@ -1,0 +1,178 @@
+html, body {
+  height: 100%;
+  line-height: 1.23em;
+
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.block-container > .block {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 75%;
+}
+.block-container > .block > h1 {
+  font-size: 75px;
+  color: #fff;
+}
+.header2{
+    visibility: hidden;
+    color: white;
+}
+
+/* Pogo slider */
+
+.container {
+	width: 1000px;
+	margin: auto auto;
+	min-height: 500px;
+	padding: 2em 0;
+}
+
+.sectionHeading h2 {
+	display: block;
+	line-height: 3em;
+	text-align: center;
+	font-weight: 2000px;
+	color: white;
+}
+
+.sectionHeading h2 {
+	padding: 0 20px;
+	display: inline-block;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.fl {
+	float: left;
+}
+
+.row {
+	width: 100%;
+}
+
+.grid12 {
+	float: left;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.small12 {
+	width: 100%;
+}
+
+.small3 {
+	width: 25%;
+}
+
+.slideDemos {
+	width: 100%;
+}
+
+.slideDemos-single {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: 1em;
+}
+
+.slideDemos-single .pogoSlider {
+	height: 225px;
+}
+
+.slideDemos-single h3 {
+	text-align: center;
+	margin-top: 10px;
+	color: #fff;
+	font-weight: 700;
+}
+.sectionHeading li {
+    color: white;
+    list-style: circle;
+}
+
+.color-bg-one {
+    margin: 100px;
+    height: 150px;
+    color: white;
+}
+
+.modules{
+    margin: 100px;
+}
+.col-md-3{
+    margin: 47px;
+}
+h1{
+    text-align: center;
+}
+h5{
+    margin: 20px;
+}
+.header3{
+    visibility: hidden;
+}
+.header4{
+    visibility: hidden;
+}
+.block-container{
+    margin: 100px;
+    height: 200px;
+    color: white;
+}
+
+.footer{
+    margin: 100px;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+.top{
+    position: absolute;
+    right: 10px;
+    top: -100px;
+    width: 1140px;
+    margin: 100px;
+    height: 200px;
+    opacity: 0.4;
+}
+.middle{
+    position: absolute;
+    right: -300px;
+    top: -150px;
+    width: 1140px;
+    margin: 100px;
+    height: 200px;
+    opacity: 0.4;
+}
+.bottom{
+    position: absolute;
+    right: 25px;
+    top: 1820px;
+    width: 1140px;
+    height: 60px;
+    margin: 100px;
+    opacity: 0.4;    
+}
+
+
+
+
+
+

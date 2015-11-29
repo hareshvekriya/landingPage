@@ -1,0 +1,204 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tutorial Part 3</title>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link href="css/fullscreenDemo.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/pogo-slider.min.css">
+        <link rel="stylesheet" href="js/animate.css">
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        
+</head>
+
+<body>
+    <img class="top" src="img/block.jpg">
+  <div class="block-container">
+    <div class="block">
+      <h1 class="header1">Multimedia Computing</h1><br>
+      <h3 class="header2">Haresh Vekriya</h3>
+    </div>
+  </div>
+    
+    <div class="container">
+		
+			<div class="pogoSlider" id="js-main-slider">
+
+				<div class="pogoSlider-slide" data-transition="slideOverLeft" data-duration="1000"  style="background-image:url(img/slide1.jpg);"></div>
+                
+				<div class="pogoSlider-slide " data-transition="fold" data-duration="1000"  style="background-image:url(img/slide2.jpg);"></div>
+                
+				<div class="pogoSlider-slide " data-transition="shrinkReveal" data-duration="1000"  style="background-image:url(img/slide3.jpg);"></div>
+                
+                <div class="pogoSlider-slide " data-transition="zipReveal" data-duration="1000"  style="background-image:url(img/slide4.jpg);"></div>
+                
+                <div class="pogoSlider-slide " data-transition="fold" data-duration="1000"  style="background-image:url(img/slide5.jpg);"></div>
+                
+                <div class="pogoSlider-slide " data-transition="barRevealDown" data-duration="1000"  style="background-image:url(img/slide6.jpg);"></div>
+                
+                <div class="pogoSlider-slide " data-transition="fold" data-duration="1000"  style="background-image:url(img/slide7.jpg);"></div>
+                
+				<div class="pogoSlider-slide " data-transition="shrinkReveal" data-duration="1000"  style="background-image:url(img/slide8.jpg);"></div>
+                
+                <div class="pogoSlider-slide " data-transition="zipReveal" data-duration="1000"  style="background-image:url(img/slide9.jpg);"></div>
+                
+                <div class="pogoSlider-slide " data-transition="fold" data-duration="1000"  style="background-image:url(img/slide10.jpg);"></div>
+                
+
+
+			</div><!-- .pogoSlider -->
+    </div> 
+    
+<!--ABOUT SECTION-->
+    <section class="for-full-back color-bg-one" id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 ">
+                        <img class="middle" src="img/block.jpg">
+                    <h1 class="header3">Modules</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="modules">
+    
+            <div class="row text-center g-pad-bottom">
+              
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="alert alert-danger">
+                            <h3>Year 1 </h3>
+                            <b>User Experience Design :</b> This module taught me
+                            about wireframes, prototyping and adobe flash.
+                            <br>
+                            <b>Software Development Principles 1 :</b> This module                               introduced me to Java programming and taught me basics                               of Java
+                            <br>
+                            <b>Mathematics for Computing:</b> This modules taught me
+                            about basic maths skills for computing.
+                            <br>
+                            <b>Information Technology:</b> This modules taught me
+                            SQL and hwo businesses use it.
+                            <br>
+                            <b>Interactive Product Development:</b> This module                                 introduced me to Animation in Adobe Edge Animate.
+                            <br>
+                            <b>Software Development Principles 2:</b> This module
+                            introduced to me advanced java, if statements and arrays
+                            <br>
+                            <b>Web Technology:</b> This module introduced me to                                 basic HMTL, forms, CSS.
+                            </div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="alert alert-success">
+                            <h3>Year 2 </h3>
+                            <b>Professional Practice :</b> This module taught me
+                            about presentations skills and gave team working skills.                             <br>
+                            <b>Object Oriented 1 :</b> This module                                               introduced me to different types of classes, abstract,                               interfaces etc.
+                            <br>
+                            <b>Advanced Client-side Web Development :</b> This                                   modules taught me advanced CSS,HTML5, jquery and how                                 implement other plugins on website.
+                            <br>
+                            <b>Software Development Group project :</b> This modules                             taught me about how to work in a group with different                               types of people with different roles.
+                            <br>
+                            
+                            </div>
+                      
+                    </div>
+                   <div class="col-md-3 col-sm-3 col-xs-6">
+                         <div class="alert alert-warning">
+                            <h3>Year 3 </h3>
+                            <b>User Experience Design :</b> This module taught me
+                            about wireframes, prototyping and adobe flash.<br>
+                            <b>Software Development Principles 1 :</b> This module                               introduced me to Java programming and taught me basics                               of Java<br>
+                            <b>User Experience Design :</b> This modules taught me
+                            about wireframes, prototyping and adobe flash.<br>
+                            <b>User Experience Design :</b> This modules taught me
+                            about wireframes, prototyping and adobe flash.<br>
+                            
+                            </div>
+                    </div>
+    </section>
+    <!--END ABOUT SECTION-->
+        
+    <div class="footer">
+        <img class="bottom" src="img/block.jpg">
+      <h3 class="header4">© Haresh Vekriya, Multimedia Computing, University of Wesminster</h3><br>
+    </div>
+
+
+    
+  <script type="text/javascript">
+    jQuery(function($){
+          $('body').vidbg({
+              'mp4': 'media/mp4_video.mp4',
+              'webm': 'media/webm_video.webm',
+              'poster': 'media/fallback.jpg',
+          }, {
+            // Options
+            muted: true,
+            loop: true,
+  					overlay: true,
+          });
+      });
+      
+    $(document).ready(function () {
+
+	$('#js-main-slider').pogoSlider({
+		autoplay: true,
+		autoplayTimeout: 5000,
+		displayProgess: true,
+		preserveTargetSize: true,
+		targetWidth: 1000,
+		targetHeight: 300,
+		responsive: true
+	}).data('plugin_pogoSlider');
+
+	var transitionDemoOpts = {
+		displayProgess: false,
+		generateNav: false,
+		generateButtons: false
+	}
+
+	$('#demo1').pogoSlider(transitionDemoOpts);
+	$('#demo2').pogoSlider(transitionDemoOpts);
+	$('#demo3').pogoSlider(transitionDemoOpts);
+	$('#demo4').pogoSlider(transitionDemoOpts);
+	$('#demo5').pogoSlider(transitionDemoOpts);
+	$('#demo6').pogoSlider(transitionDemoOpts);
+	$('#demo7').pogoSlider(transitionDemoOpts);
+	$('#demo8').pogoSlider(transitionDemoOpts);
+	$('#demo9').pogoSlider(transitionDemoOpts);
+	$('#demo10').pogoSlider(transitionDemoOpts);
+	$('#demo11').pogoSlider(transitionDemoOpts);
+	$('#demo12').pogoSlider(transitionDemoOpts);
+                
+                
+    $('.header1').textillate();
+    $('.header1').on('inAnimationEnd.tlt', function () {
+            $('.header2').textillate();
+        
+});
+    $('.header2').on('inAnimationEnd.tlt', function () {
+            $('.header3').textillate();
+        
+});
+    $('.header3').on('inAnimationEnd.tlt', function () {
+            $('.header4').textillate();
+        
+});
+
+});
+            
+  </script>
+
+        <script src="dist/vidbg.js"></script>
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery.pogo-slider.min.js"></script>
+        <script src="js/jquery.textillate.js"></script>
+        <script src="js/jquery.lettering.js"></script>
+
+</body>
+</html>
